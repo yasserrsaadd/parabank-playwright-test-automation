@@ -15,9 +15,9 @@ export interface RegistrationUser {
 // This function takes a username as a parameter and returns an object of type RegistrationUser with predefined values for the other properties
 export function createRegistrationUser(username: string): RegistrationUser { 
   return {
-    firstName: 'Taylor',
+    firstName: 'Yasser',
     lastName: 'Automation',
-    street: '100 Test Avenue',
+    street: '100 Test city',
     city: 'Quality City',
     state: 'QA',
     zipCode: '00000',
